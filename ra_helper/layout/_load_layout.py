@@ -28,7 +28,7 @@ _PATH_LAYOUT = [
     ],
     [
         sg.In(size=(25, 1), enable_events=True, key='-FOLDER-'),
-        sg.FileBrowse(file_types=(('Text Files', '*.txt'), ('CSV files', '*.csv'))),
+        sg.FileBrowse(file_types=(('CSV files', '*.csv'), ('Text Files', '*.txt'))),
     ],
 ]
 
